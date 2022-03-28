@@ -14,8 +14,8 @@ const Header = () => {
         <div className="header-bg">
             <Navbar collapseOnSelect expand="lg" variant="dark">
                 <Container>
-                    <img className="logo me-2" src={logo} alt="" />
-                    <Navbar.Brand className="logo-name fs-3">PureSmile</Navbar.Brand>
+                    {/* <img className="logo me-2" src={logo} alt="" /> */}
+                    <Navbar.Brand className="logo-name fs-3">Ed-Tech</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto fw-bold">
