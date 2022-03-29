@@ -29,14 +29,14 @@ const ServiceDetails = () => {
                     <div className="col-md-6">
                         <div className="py-3">
                             <h1>{details?.name}</h1>
-                            <p>Service No. {serviceId}</p>
+                            <p>Course No. {serviceId}</p>
                         </div>
-                        <h5>Doctor: Dr. {details?.doctor}</h5>
+                    
 
                         <p>Fee: ${details?.price}</p><br />
                         <h6>Details:</h6>
                         <p>{details?.description}</p>
-                        <button className="btn btn-color mt-3 py-3 px-5 text-white">Appointment Now !!!</button>
+                        <button className="btn btn-color mt-3 py-3 px-5 text-white">Enroll Now !!!</button>
                     </div>
                 </div>
             </div>

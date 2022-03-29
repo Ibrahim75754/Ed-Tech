@@ -11,7 +11,7 @@ const Service = (props) => {
                     <img src={img} class="card-img-top img-fluid" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">{name}</h5>
-                        <p class="card-text">{description}</p>
+                        <p class="card-text">{description?.slice(0, 110)}</p>
                         <NavLink to={`/home/${id}`} className="btn btn-color py-2 px-5">More Details</NavLink>
 
                     </div>
